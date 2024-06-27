@@ -1,0 +1,74 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+.age-container-main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 22, 1);
+}
+.age-container-sub{
+    background-color: transparent;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    gap: 10px;
+    border: 2px solid white;
+}
+.age-container-sub h1{
+    color: white;
+}
+.age-in{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+}
+.age-in input{
+
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.age-in label{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.age-but{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    /* background-color: green; */
+}
+.age-but-1{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.age-footer{
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+}
