@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wea-body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 22, 1);
+    color: white;
+}
+.wea-main{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.wea-hum-win,.wea-l{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px;
+}
+.wea-temperature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.wea-first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.wea-main input{
+    padding: 5px;
+    outline: none;
+}
+.wea-temperature p{
+    font-size: 23px;
+}
+.wea-heat{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.wea-humidity,.wea-windspeed,.wea-lon,.wea-lat{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.wea-humidity-num,.wea-wind-num,.wea-lon-num,.wea-lat-num{
+    font-size: 18px;
+}
+.wea-sec{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: green;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.wea-top{
+    display: flex;
+    gap: 10px;
+}
+.wea-sea-but{
+    padding: 3px;
+    padding-left: 4px;
+    padding-right: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.wea-footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+    justify-content: center;
+}
+.wea-footer button{
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
