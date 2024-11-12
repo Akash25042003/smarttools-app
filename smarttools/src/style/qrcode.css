@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.qr{
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.qr-body{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: darkblue; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 40px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+.qr-container{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.75);
+    border: 2px solid rgb(176, 171, 171);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+    /* height: 50%; */
+}
+.qr-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+    width: 100%;
+}
+.qr-im{
+    padding: 5px;
+    padding-top: 5px;
+}
+.qr-text{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content:center;
+    padding: 10px;
+    margin-left: 5%;
+}
+/* .qr-size{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 5px;
+} */
+.qr-but{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    width: 100%;
+    margin-left: 4%;
+}
+.qr-but button{
+    width: 80%;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+
+    /* color: darkblue; */
+    
+}
+.qr-but button:hover{
+    background-color: rgb(183, 174, 174);
+}
+.qr-text input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 20px;
+    
+}
+.qr-text label{
+    color: white;
+    font-size: 19px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}

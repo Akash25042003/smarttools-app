@@ -1,0 +1,86 @@
+   .cal-body {
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    padding-top: 5px;
+    height: 100vh;
+    background-color: transparent;
+   }
+   .calculator {
+    width: 350px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    
+  }
+  .cal-display {
+    width: 95%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 33px;
+    text-align: right;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(205, 201, 201);
+    color: black;
+    
+  }
+  .cal-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 5px;
+  }
+  .cal-but {
+    padding: 20px;
+    background-color: rgb(30, 29, 29);
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    
+  } 
+  .cal-equal{
+    background-color: rgb(209, 63, 10,0.8);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 20px;
+    
+  }
+  .cal-c{
+    background-color: rgba(17, 185, 17, 0.6);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 20px;
+  }
+  .cal-del{
+    background-color: rgb(125, 21, 21,0.7);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+
+
+
+  @media (max-width: 580px) {
+    .calculator {
+      width: 300px;
+    }
+
+    .cal-but {
+      padding: 15px;
+    }
+  }
+  

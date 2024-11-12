@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.note-body{
+    background-color: transparent;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 40px;
+}
+.note-sub{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.75);
+    border: 2px solid rgb(176, 171, 171);
+    padding: 25px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+.note-head{
+    color: white;
+}
+.to-input{
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+}
+.todo-but{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    background-color:rgb(4, 4, 140);
+    color: white;
+}
+.note-name{
+    /* border: 2px solid white; */
+    padding: 10px;
+    display: flex;
+    
+    gap: 15px;
+    border-radius: 10px;
+}
+.note-note{
+    color: white;
+    font-size: 20px;
+   
+}
+.note-del{
+    padding: 5px;
+    background-color:rgb(130, 1, 1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.note-footer{
+    display: flex;
+    align-items: start;
+    
+    width: 300px;
+}
+
+@media (max-width: 380px) {
+
+    .to-input{
+        font-size: 15px;
+        padding: 15px;
+        border-radius: 10px;
+        border: none;
+        margin-right: 10px;
+    }
+}
